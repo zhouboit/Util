@@ -13,7 +13,7 @@ keystore：本地jre存储安全证书的地方 绝对路径 "D:\env\Java\jdk1.8
 
 storepass：本地证书库的密码，默认 changeit 
 
-~~keypass：要导入的证书秘钥 XXXXXX ~~
+ ~~keypass：要导入的证书秘钥 XXXXXX ~~
 
 alias：证书别名，方便在 证书库中查看识别 api0.hirain.com 
 
