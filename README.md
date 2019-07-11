@@ -5,7 +5,7 @@ java 使用证书请求https 测试
 
 导入证书：
 
-keytool -import -keystore "D:\env\Java\jdk1.8.0_201\jre\lib\security\cacerts"  -storepass changeit -keypass XXXXXX -alias aliasName -file C:\Users\bo.zhou1.XXXX\Documents\api证书20190709\rootca.crt
+keytool -import -keystore "D:\env\Java\jdk1.8.0_201\jre\lib\security\cacerts"  -storepass changeit ~~-keypass XXXXXX~~ -alias aliasName -file C:\Users\bo.zhou1.XXXX\Documents\api证书20190709\rootca.crt
 
 keytool：jre下的工具，配置环境变量后可以直接使用，如果没有配置环境变量或者本机存在多个jre需要使用绝对路径
 
@@ -13,7 +13,7 @@ keystore：本地jre存储安全证书的地方 绝对路径 "D:\env\Java\jdk1.8
 
 storepass：本地证书库的密码，默认 changeit 
 
-keypass：要导入的证书秘钥 XXXXXX 
+~~keypass：要导入的证书秘钥 XXXXXX ~~
 
 alias：证书别名，方便在 证书库中查看识别 api0.hirain.com 
 
